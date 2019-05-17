@@ -1,0 +1,266 @@
+#index_top{
+    width:90%;
+    margin:auto;
+}
+#logo>img{
+    width:205px;
+    height:36px;
+    float:left;
+}
+/* 专区样式 */
+#spe{
+    width:545px;
+    float:left;
+}
+#spe>li>a>img{
+    width:74px;
+    height:24px;
+}
+#spe>li>a{
+    font-size:16px;
+    color:#333;
+    line-height:40px;
+}
+#spe>li>a:hover{
+    text-decoration:none;
+}
+/* 输入框样式 */
+#search-bar{
+    width:285px;
+    float:right;
+}
+#search-bar>input:first-child{
+    width:285px;
+    height:30px;
+    background-color:#ddd;
+    border-radius:16px 0 0 16px ;
+}
+/* 搜索框 */
+#search{
+    float:left;
+}
+#search_bar{
+    float:left;
+    width:100px;
+    height:30px;
+    border-radius:15px 0 0 15px;
+    background-color:#dddd;
+    margin-bottom:5px;
+}
+#search_text{
+    width:180px;
+    height:30px;
+    float:left;
+    padding-right:10px;
+    text-align:right;
+    border-radius:0  15px 15px 0;
+}
+#search_text>a{
+    line-height:30px;
+    color:#ca141d;
+    font-size:12px;
+    text-decoration:none;
+}
+#search_text>a:hover{
+    text-decoration:none;
+}
+/* 轮播原点样式 */
+div.carousel{
+    position:relative;
+}
+ul.carousel-indicators{
+   position:absolute;
+   top:325px;
+   left:530px;
+}
+ul.carousel-indicators>li{
+    width:12px;
+    height:12px;
+    border:1px solid #fff;
+    border-radius:6px;
+    background:transparent;
+    margin-left:7px;
+}
+ul.carousel-indicators>li:hover{
+    background-color:#fff;
+}
+ul.list-unstyled>li{
+    margin:0  8px;
+}
+/* 新人福利，会员频道样式 */
+#f1{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+    background-color:#fff;
+    margin-top:100px;
+}
+#f1:before{
+    content:"";
+    display:table;
+}
+div.w-info>a{
+    width:100px;
+    height:40px;
+    display:block;
+    text-align:center;
+    line-height:40px;
+    border-radius:8px;
+    margin-top:15%;
+}
+div.w-info>a:hover{
+    text-decoration:none;
+}
+div.w-info>#new{
+    border:1px solid #e47b7f;
+    color:#de5b60;
+    background-color:#fff;
+    float:left;
+    margin-right:20px;
+}
+div.w-info>#member{
+    background-color:#505454;
+    color:#fde4b3;
+    float:left;
+}
+/* 中间部分小图标 */
+#item{
+    position:relative;
+}
+#item>p{
+    color:#333;
+    font-size:12px;
+    line-height:24px;
+    text-align:center;
+    margin-top:-20px;
+}
+#item>p:hover{
+    text-decoration:none;
+}
+#item>div.small_img{   
+    width:80px;
+    height:80px;
+    transform:scale(0.5,0.5);
+    background:url(../image/index/index_smallnav.png) no-repeat 0 0;  
+}
+#item1{ 
+    background-position:0  0;
+} 
+#item>#item2{   
+    background-position: -84px 0;
+}
+#item>#item3{
+    background-position:-160px 0;
+}
+#item>#item4{
+    background-position:-240px 0;
+}
+
+#item>#item5{
+    background-position:-318px 0;
+}
+#item>#item6{
+    background-position:-404px 0;
+}
+/* 右边公告部分整体样式 */
+#right_note{
+    margin:0;
+    width:270px;
+    height:42px;
+    border:1px  solid #ddd;
+}
+#note{
+    margin-top:20px;
+    margin-right:20px;
+    text-align:center;
+}
+span.notice{
+    font-size:14px;
+    color:#333;
+    font-weight:bold;
+    line-height:100%;
+}
+span.notice+span{
+    color:#333;
+    font-size:12px;  
+    
+}
+#item>#item7,#item>#item8,#item>#item9{
+    width:50px;
+    height:35px;
+    float:left;
+    margin-top:6px;
+}
+#item>#item7{   
+    background-position:-475px 0;  
+}
+span.ritem_text{
+    font-size:12px;
+    color:#333;
+    float:left;
+    margin-top:15px;
+    margin-left:-10px;
+}
+#item>#item8{   
+    background-position:-515px 0;
+}
+#item>#item9{   
+    background-position:-555px 0;
+}
+#main img{
+    border-radius:10px;
+}
+
+/* 热销品中8个单品 */
+#nova{
+    border-radius:10px;
+}
+li.hotPro{
+    width:230px;
+    background-color:#f9f9f9;
+    border-radius:10px;
+}
+li.hotPro:hover{
+    background-color:#fff;   
+}
+li.hotPro>a{
+    display:block;
+    width:100%;
+    height:100%;
+   
+    text-align:center;
+}
+li.hotPro>a>div,li.hotPro>a{
+    color:#3a3a3a;
+    text-decoration:none;
+}
+li.hotPro>a>img{
+    width:160px;
+    height:160px;
+}
+li.hotPro>a>img+div{
+    margin-top:10px;
+}
+p.price{
+    font-size:14px;
+    color:#d0021b
+}
+li.hotPro>a>p>span{
+    display:inline-block;
+    width:55px;
+    height:22px;
+    font-size:14px;
+    line-height:22px;
+    color:#fff;
+    background-color:#FF6A6E;
+    border-radius:0 0 6px  6px;
+}
+a.grid-img>img{
+    margin-top:35px;
+}
+li.hotPro>a>p>span.new{
+    background-color:#68BEFF;
+}
+#f3{
+    margin-left:-50px;
+}

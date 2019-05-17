@@ -1,0 +1,19 @@
+ul>li>a{
+    font-size:12px;
+    color:#333;
+    text-decoration:none;
+}
+ul>li>a:hover{
+    color:#ca141d;
+    text-decoration:none;
+}
+li.breadcrumb-item+li.breadcrumb-item:before{
+    content:"|";
+}
+ul.breadcrumb{
+    background-color:#fff;
+}
+#mall_header{
+    width:90%;
+    margin:auto;
+}
